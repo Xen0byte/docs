@@ -62,7 +62,7 @@ jobs:
 
       # Create the PR for the new article
       - name: create-pull-request
-        uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e
+        uses: peter-evans/create-pull-request@4320041ed380b20e97d388d56a7fb4f9b8c20e79
         with:
           title: "What's new article"
           commit-message: 'Bot 🤖 generated "What''s new article"'
